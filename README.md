@@ -19,25 +19,5 @@ Este projeto é uma aplicação web para organizar os participantes dos cafés d
 
 - **Java 17** ou superior
 
-## Executando o Projeto
-
-### Backend
-
-1. Clone o repositório:
-   gitbash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   
-
-Navegue até a pasta do backend e configure o banco de dados em src/main/resources/application.properties:
-
-application.properties
-spring.datasource.url=jdbc:postgresql://<HOST>:<PORT>/<DATABASE>
-spring.datasource.username=<USER>
-spring.datasource.password=<PASSWORD>
-Compile e inicie o backend:
-
-gitbash
-./mvnw spring-boot:run
-
 # Link do WEB Service: 
 https://desafio-sulworktech-production-app.up.railway.app/index.html
