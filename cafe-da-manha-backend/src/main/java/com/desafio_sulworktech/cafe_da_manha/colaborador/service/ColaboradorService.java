@@ -17,6 +17,7 @@ public class ColaboradorService {
 	@Autowired
 	private ColaboradorRepository colaboradorRepository;
 
+	// Listar todos os colaboradores
 	public List<Colaborador> listarColaboradores() {
 		return colaboradorRepository.findAll();
 	}
@@ -79,4 +80,10 @@ public class ColaboradorService {
 	public void deletarColaborador(UUID id) {
 		colaboradorRepository.deleteById(id);
 	}
+	
+	// Utilizando a Native Query de deletar colaborador
+//	public void deleteColaborador(UUID id) {
+//		colaboradorRepository.deleteColaborador(id);
+//	}
+	
 }

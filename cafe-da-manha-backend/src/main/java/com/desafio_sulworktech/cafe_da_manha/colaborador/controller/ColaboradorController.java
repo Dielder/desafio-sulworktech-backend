@@ -69,4 +69,11 @@ public class ColaboradorController {
 		colaboradorService.deletarColaborador(id);
 		return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Colaborador deletado com sucesso.");
 	}
+	
+	// Deletar colaborador pelo ID com a Native Query
+//	 @DeleteMapping("/{id}")
+//	    public ResponseEntity<Void> deletarColaborador(@PathVariable UUID id) {
+//	        colaboradorService.deletarColaborador(id);
+//	        return ResponseEntity.noContent().build();
+//	    }
 }
