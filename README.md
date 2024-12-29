@@ -19,7 +19,7 @@ Este projeto é uma aplicação web para organizar os participantes dos cafés d
 
 - **Java 17** ou superior
 
-# Link do WEB Service: 
+# Link do WEB Service: (Está fora do ar, a plataforma dá 5 dólares grátis para cada usuário, os meus acabaram e não consegui deixar a aplicação rodando!)
 https://desafio-sulworktech-production-app.up.railway.app/index.html
 
 ![Tela de Cadastro](imagens/FazerCadastro.png)
